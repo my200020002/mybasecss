@@ -1,0 +1,121 @@
+:root {
+    --custom-tab-background: #edf0f2;
+    --custom-tab-hover-background: #76878d38;
+    --custom-tab-border: #d3dae27c;
+    --custom-tab-focus-top-border: #435f6b;
+    /* 各级标题颜色 */
+    --custom-h1-color: rgba(15, 76, 129, 1);
+    --custom-h2-color: #083256;
+    --custom-h2-border-color: #dfe0e1;
+    --custom-h3-color: rgba(15, 76, 129, 1);
+    --custom-h4-color: #1c849e;
+    --custom-h5-color: #000000;
+    --custom-h6-color: #202124;;
+    --custom-blockquote-border-color: #e8e8e8;
+    --custom-blockquote-background-color: #eaf7ff59;
+    --custom-tag-hover-color: #559898;
+    --custom-link-bottom-color: #3375ab;
+    --b3-theme-primary: #3ca3ce;
+    --b3-theme-primary-light: #b9d7e4;
+    --b3-theme-primary-lighter: #98dbf8;
+    --b3-theme-primary-lightest: #129ad421;
+    --b3-border-radius: 6px;
+}
+h1 {
+    border-bottom: 2px solid var(--custom-h1-color);
+    border-radius: 0px !important;
+    color: var(--custom-h1-color) !important;
+    cursor:text;
+    display:block;
+    font-family:"Microsoft Yahei";
+    font-size: 30px;
+    line-height: 30px;
+    margin:10px 0;
+    padding:10px 4px;
+    position:relative;
+    text-align:center;
+    word-break: break-all;
+}
+h2,h3,h4,h5,h6{
+    border-radius: 0px;
+    padding: 10px 4px;
+    cursor:text;
+    display:block;
+    font-family:"Microsoft Yahei";
+    position:relative;
+    text-align:start;
+    margin:5px 0;
+    word-break: break-all;
+}
+
+h2 {
+    border-bottom: 1px solid var(--custom-h2-border-color);
+    color: var(--custom-h2-color) !important;
+    font-size: 26px;
+    line-height: 26px;
+    margin:10px 0;
+}
+h3 {
+    border-left: 5px solid var(--custom-h3-color);
+    color: var(--custom-h3-color) !important;
+    font-size: 22px;
+    line-height: 22px;
+}
+h4 {
+    color: var(--custom-h4-color) !important;
+    font-size: 18px;
+    line-height: 18px;
+}
+h5 {
+    color: var(--custom-h5-color) !important;
+    font-size: 18px;
+    line-height: 18px;
+}
+h6 {
+    color: var(--custom-h6-color) !important;
+    font-size: 18px;
+    line-height: 18px;
+}
+body, p, div, li, label, table, th, td, blockquote, label, pre, code{
+    font-family:"Microsoft Yahei";
+    font-size: 16px;
+    line-height: 20px;
+    color:rgb(32, 33, 36);
+}
+hr {
+    border: none;
+    height: 1px;
+    border-radius: 1px;
+    background: var(--custom-h2-border-color);
+}
+blockquote {
+    margin: 0 0 26px 26px;
+}
+blockquote p {
+    margin: 0 0 0 0;
+    word-break: break-all;
+}
+table {
+    border-collapse: collapse; 
+    width: 100%;
+    border: 1px solid #ccc; 
+}
+th,
+td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: left;
+}
+th {
+    background-color: #f2f2f2;
+    color: #333;
+    font-weight: bold;
+}
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+td {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
